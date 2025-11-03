@@ -134,28 +134,25 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    title: "Yan Qin"
+    subtitle: "I’m a software engineer"
+    content: "Driven to use my coding skills to solve real-world problems and make people’s lives better."
+    image: /images/profile.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
+      name: "Download Yan Qin Resume"
+      url: "/YanQin_CV.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/yanqin24
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/yanqin24/
 
   # About
   about:
@@ -163,146 +160,83 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I am currently pursuing my Master of Engineering in Computer Software Engineering at Northeastern University (Seattle Campus), where I maintain a 4.0 GPA and focus on full-stack development, cloud deployment, and data-driven system design.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I’ve previously worked at Meituan, OPPO, and BIGO, where I built scalable systems, designed A/B experiments, and developed full-stack applications that reached millions of users. My work ranges from creating AI-assisted web features and analytics dashboards to architecting microservice-based e-commerce and chatroom platforms deployed on AWS.
+
+      I’m driven by curiosity and impact — I love transforming ideas into reliable, intuitive, and efficient digital products that improve how people live and interact with technology.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "JavaScript (React, Node.js, Express)"
+        - "Python (Flask, Data Visualization)"
+        - "Java (Spring Boot, MyBatis)"
+        - "SQL & MySQL"
+        - "AWS (ECS, EC2, S3, CloudFront)"
+        - "Docker, Jenkins, Git"
+
 
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Meituan"
+        companyUrl: "https://www.meituan.com/"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+          - name: "Software Engineer Intern"
+            date: "May 2025 – Aug 2025"
+            content: |-
+              Contributed to Meituan’s B2B food-delivery platform serving 14.5 M+ merchants.  
+              - Built a full-stack visual dashboard using React, TypeScript, and ECharts with multi-dimensional filtering and CSV export.  
+              - Designed product bundle promotion features integrated with analytics dashboards for real-time tracking.  
+              - Enhanced isomorphic React framework and optimized MySQL queries for 10 K+ requests/hour.
 
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "BIGO Tech"
+        companyUrl: "https://www.bigo.sg"
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
-            content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+          - name: "Product Operations Analyst"
+            date: "Jan 2022 – Jun 2023"
+            content: |-
+              Led 30+ A/B and multivariate experiments for revenue optimization, achieving 30% YoY ads growth.  
+              - Integrated statistical testing for feature validation and collaborated with engineers to improve in-app monetization.
+      
+      - company: "OPPO"
+        companyUrl: "https://www.oppo.com"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-  # Education
+          - name: "Data Analyst"
+            date: "Aug 2020 – Jan 2022"
+            content: |-
+              - Worked with algorithm and operation teams on app-store data analysis and growth optimization.  
+              - Designed A/B tests across Middle-East markets to evaluate ad-pricing strategies and increased eCPM by 15%.  
+              - Built SQL/Shell pipelines and dashboards supporting 400 M+ user app-distribution metrics.
   education:
     enable: true
-    # title: "Custom Name"
-    index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Science in Computer Software Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Northeastern University, Seattle"
+          url: "https://www.northeastern.edu/"
+        date: "2024 – Dec 2026 (expected)"
+        GPA: "4.0 / 4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          - Focus Areas: Full-Stack Development, Cloud Computing, Data Structures & Algorithms, and AI Applications.
+          - Relevant Courses: Application Modeling and Design, Structure and Algorithms, Web Design, Database Design, Distributed Systems, Cloud Computing, Software Architecture, DevOps Engineering
+          - Projects: React Restaurant Reservation System, LLM Autonomous Decision Platform, AI Health Assistant AgentForce.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "Bachelor of Arts in Communication"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "South China Normal University"
+          url: "https://www.scut.edu.cn/en/"
+        date: "2013 – 2017"
+        content: |-
+          Coursework in software engineering, database systems, and computer networks.  
+          Graduated with distinction and participated in multiple innovation and programming projects.
+
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -327,50 +261,92 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: "Restaurant Reservation Website"
+        content: "A full-stack web application built with React and Node.js, featuring dynamic menu management, reservation flow, and AWS S3 + CloudFront deployment with CI/CD integration."
+        image: /images/projects/restaurant.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: "Demo"
+          link: "https://d2tx7i1tw5yn25.cloudfront.net/"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "React"
+          - "Node.js"
+          - "AWS"
+          - "CloudFront"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/yanqin24/Restaurant-Reservation-Web
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: "Online Chatting Website"
+        content: "A secure full-stack chatroom using Node.js, Express, and JavaScript, implementing cookie-based authentication, MVC pattern, and deployment on AWS."
+        image: /images/projects/chat.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: "Demo"
+          link: "https://youtu.be/DxPkegnzaJo"
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Node.js"
+          - "Express"
+          - "JavaScript"
+          - "AWS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/yanqin24/online-chat-room
+      
+      - title: "e-Commerce Supermarket Platform"
+        content: "A microservices-based e-commerce platform built with Spring Boot, MyBatis, and a responsive UI supporting modular architecture and scalable deployment."
+        image: /images/projects/ecommerce.png
+        featured:
+          name: "GitHub"
+          link: "https://github.com/yanqin24/e-commercial-web-platform"
+        badges:
+          - "Java"
+          - "Spring Boot"
+          - "MyBatis"
+          - "Microservices"
+      
+      - title: "Online Shop Cart"
+        content: "A full-stack serverless e-commerce app for food browsing and checkout, built with Vite + JavaScript and Node.js + Express. Deployed via AWS S3 + CloudFront (frontend) and AWS Lambda + API Gateway (backend), it supports user login, cart management, secure checkout, and cross-origin session cookies for seamless interaction."
+        image: /images/projects/shop.png
+        featured:
+          name: "Demo"
+          link: "https://d3tfpdle0ty431.cloudfront.net"
+        badges:
+          - "React.js"
+          - "Express.js"
+          - "REST APIs"
+          - "Vite"
+          - "AWS S3"
+          - "AWS Lambda"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/yanqin24/Online-Shop-Cart
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: "My Health Buddy App"
+        content: "A desktop health management application built with Java Swing and SQLite. Allows users to monitor weight, BMI, steps, blood pressure, and heart rate, while tracking sleep quality, mood, and water intake. Features data visualization with 9 health metrics, multiple time ranges for trend analysis, secure local storage, and data export functionality."
+        image: /images/projects/health.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: "Demo Video"
+          link: "https://youtu.be/demo-healthbuddy"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Java"
+          - "Swing"
+          - "SQLite"
+          - "MySQL"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/yanqin24/my-healthcare-buddy
+
+      - title: "Dietary Management Website"
+        content: "A Flask + MySQL-based health tracking platform with user dashboards, habit monitoring, and visualized health analytics using Matplotlib."
+        image: /images/projects/dietary.png
+        featured:
+          name: "GitHub"
+          link: "https://github.com/yanqin24/nutri-track-app"
+        badges:
+          - "Python"
+          - "Flask"
+          - "MySQL"
+          - "Data Visualization"
+
 
   #Contact
   contact:
@@ -391,14 +367,12 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/yanqin24
+      linkedin: https://www.linkedin.com/in/yanqin/
+
 
   # List pages like blogs and posts
   listPages:
