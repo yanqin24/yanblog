@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "YanQin Profile"
 theme: hugo-profile
 
 outputs:
@@ -28,18 +28,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -115,8 +115,8 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "YanQin Profile" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -152,7 +152,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/yanqin24
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/yanqin24/
+          url: https://www.linkedin.com/in/yanqin/
 
   # About
   about:
@@ -222,16 +222,23 @@ params:
         content: |-
           - Focus Areas: Full-Stack Development, Cloud Computing, Data Structures & Algorithms, and AI Applications.
           - Relevant Courses: Application Modeling and Design, Structure and Algorithms, Web Design, Database Design, Distributed Systems, Cloud Computing, Software Architecture, DevOps Engineering
-          - Projects: React Restaurant Reservation System, LLM Autonomous Decision Platform, AI Health Assistant AgentForce.
+          - Projects: React Restaurant Reservation System, LLM Autonomous Decision Platform, AI Health Assistant AgentForce.  
+      
+      - title: "Master of Arts in Advertising"
+        school:
+          name: "Jinan University"
+          url: "https://www.jnu.edu.cn/"
+        date: "2017 – 2020"
+        GPA: "86 / 100"  
 
       - title: "Bachelor of Arts in Communication"
         school:
           name: "South China Normal University"
-          url: "https://www.scut.edu.cn/en/"
+          url: "https://www.scnu.edu.cn/"
         date: "2013 – 2017"
-        content: |-
-          Coursework in software engineering, database systems, and computer networks.  
-          Graduated with distinction and participated in multiple innovation and programming projects.
+        GPA: "3.7 / 5.0"
+
+
 
 
   # Achievements
@@ -261,6 +268,19 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+
+      - title: "Intellicare AI Assistant"
+        content: "AIGOOO Intellicare is an AI-powered healthcare assistant built with Salesforce AgentForce and OpenAI API, designed to streamline doctor-patient communication. It conducts voice-based patient follow-ups, detects anomalies in recovery, and assists doctors in generating feedback automatically. The system integrates prompt engineering, multi-agent coordination, and contextual memory for intelligent medical interactions."
+        image: /images/projects/intellicare.png
+        featured:
+          name: "Demo"
+          link: "https://www.youtube.com/watch?v=vMCg-zUf9O0"
+        badges:
+          - "Salesforce AgentForce"
+          - "Prompt Engineering"
+          - "OpenAI API"
+          - "Natural Language Processing (NLP)"
+
       - title: "Restaurant Reservation Website"
         content: "A full-stack web application built with React and Node.js, featuring dynamic menu management, reservation flow, and AWS S3 + CloudFront deployment with CI/CD integration."
         image: /images/projects/restaurant.png
@@ -325,7 +345,7 @@ params:
         image: /images/projects/health.png
         featured:
           name: "Demo Video"
-          link: "https://youtu.be/demo-healthbuddy"
+          link: "https://youtu.be/P8Iq3vVXCvI"
         badges:
           - "Java"
           - "Swing"
@@ -354,7 +374,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:lixiangbei613@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
